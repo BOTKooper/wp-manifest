@@ -64,6 +64,7 @@ module.exports = {
       72: '18rem',
       80: '20rem',
       96: '24rem',
+      136: '34rem',
     },
     animation: {
       none: 'none',
@@ -431,6 +432,7 @@ module.exports = {
       '4/6': '66.666667%',
       '5/6': '83.333333%',
       full: '100%',
+      'x2': '200%',
       screen: '100vh',
     }),
     inset: (theme, { negative }) => ({
@@ -793,6 +795,7 @@ module.exports = {
       '10/12': '83.333333%',
       '11/12': '91.666667%',
       full: '100%',
+      '2x': '200%',
       screen: '100vw',
       min: 'min-content',
       max: 'max-content',
